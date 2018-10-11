@@ -1,0 +1,21 @@
+{
+  "name": "webpack-circular-dependency",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "case1": "webpack-dev-server src/case1/index.js --open",
+    "case2": "webpack-dev-server src/case2/index.js --open",
+    "debug1": "node --inspect-brk node_modules/webpack/bin/webpack.js src/case1/index.js",
+    "debug2": "node --inspect-brk node_modules/webpack/bin/webpack.js src/case2/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "circular-dependency-plugin": "^5.0.2",
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}

@@ -1,3 +1,3 @@
 #Test circular dependency in webpack
 
-![Cases](https://raw.githubusercontent.com/alexzyza/circular-dependency/master/picture.png)
+![Cases](https://raw.githubusercontent.com/alexzuza/circular-dependency/master/picture.png)
